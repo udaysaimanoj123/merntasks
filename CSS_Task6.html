@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h1{
+            color:#E25E3E;
+            margin-left:63px;
+        }
+        img{
+            border-radius: 100%;
+            height:150px;
+        }
+       #main{
+        width:500px;
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:auto;
+       }
+       #textbox{
+        width:400px
+       }
+       #login{
+       width:400px;
+       background-color: rgb(27, 176, 27);
+       border:solid white;
+       height:30px;
+       color:white;
+       }
+
+       #login:hover{
+        transform:translate(1px,1px);
+       }
+       #cancel{
+          background-color: rgb(252, 95, 52);
+          color:white;
+          padding:5px 8px;
+          border-radius:5px;
+          border:solid 0.0001px black;
+          
+       }
+       .bottom{
+        background-color: rgb(223, 225, 243);
+        padding-top: 10px;
+        display:flex;
+        justify-content:space-between;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Task 6</h1>
+  <div id = "main">
+    <div><img src= "profile.png" alt = "Loading..."></div>
+    <div>
+        <label for="Username">Username</label><br>
+        <input id = "textbox" type = "text" name = "Username" id = "Username" placeholder = "Enter Username" ><br><br>
+        <label for = "Password">Password</label><br>
+        <input id = "textbox" type = "password" name = "Password" id = "Password" placeholder="Enter Password"><br><br>
+        <button id = "login">Login</button><br><br>
+        <input type = "checkbox" name = "Checkbox" id = "Checkbox">
+        <label for = "Checkbox">Remember me</label><br><br>
+       <div class = "bottom"><div><button id = "cancel">Cancel</button></div><div>Forgot <a href = "#">password?</a></div></div>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse:collapse;
+            margin:auto;
+        }
+        td{
+            border:solid black 2.1px;
+        }
+        .cen{
+           text-align:center;
+        }
+        .textbox{
+            width:381px
+        }
+        div{
+            margin:10px auto;
+        }
+        .Heading{
+            color:blue;
+            text-align:center;
+        }
+        h1{
+            color:#E25E3E;
+            margin-left:63px;
+        }
+        label{
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 5</h1>
+    <h1 class = "Heading">Registration form</form></h1>
+    <from>
+    <table>
+        <tr>
+            <td class = "cen"><label for = "Fname">First Name</label></td>
+            <td><input class = "textbox" type = "text" id = "Fname" name = "Fname"></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for ="Lname">Last Name</label></td>
+            <td><input class = "textbox"  type = "text" id = "Lname" name = "Lname"></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "password">Password</label></td>
+            <td><input class = "textbox"  type = "Password" id = "password" name = "password"></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "Repassword">Re-enter Password</label></td>
+            <td><input class = "textbox"  type = "Password" id = "Repassword" name = "Repassword"></td>
+        </tr>
+        <tr>
+            <td class = "cen" rowspan = "2"><label>Gender:</label></td>
+            <td><input type = "radio" name = "gender"  value = "male"><label for = "male">Male</label></td>
+    
+        </tr>
+        <tr>
+            <td ><input type = "radio" name = "gender" value = "female"><label for = "female">Female</label></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "PhoneNumber">Phone Number</label></td>
+            <td><input class = "textbox"  type = "text" id = "PhoneNumber" name = "PhoneNumber"></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "Address">Address</label></td>
+            <td><textarea  name = "Address" id = "Address" rows = "5" cols = "50"></textarea></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "state">State</label></td>
+            <td><input class = "textbox" id = "state" name = "state"></td>
+        </tr>
+        <tr>
+            <td class = "cen"><label for = "country">Country</label></td>
+            <td><select id = "country" name = "country">
+                <option>Choose your country</option>
+                <option value="india">India</option>
+                <option value = "USA">USA</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for = "Languages">Languages Known</label> </td>
+            <td><input type = "checkbox" id = "English" name = "languages" value = "English"><label for = "English">English</label>
+                <input type = "checkbox" id = "Kannada" name = "languages" value = "Kannada"><label for = "Kannada">Kannada</label>
+                <input type = "checkbox" id = "Hindi" name = "languages" value = "Hindi"><label for = "Hindi">Hindi</label>
+                <input type = "checkbox" id = "Telugu" name = "languages" value = "Telugu"><label for = "Telugu">Telugu</label></td>
+        </tr>
+        <tr><td colspan = "2"><input type = "checkbox" value = "Declaration" id = "Declaration"><label for = "Declaration">Hereby I declare all the given details are true</label></td></tr>
+        <tr><td colspan = "2" style = "text-align: end;">Log in to <a href = "#">Ethnus</a> website</td></tr>
+    </table>
+    <div class = "cen"><button class = "cen">Register</button></div>
+    </from>
+</body>
+</html>
